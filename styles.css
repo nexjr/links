@@ -7,8 +7,8 @@
 html {
   --bg-color: #EDF2FF;
   --text-color: #00082F;
-  --primary-color: #4263EB;
-  --primary-color-dark: #364FC7;
+  --primary-color: #8d1dc4;
+  --primary-color-dark: #5d1282;
 }
 
 body.dark {
@@ -96,6 +96,15 @@ ul li a {
 
 ul li a:hover {
   background-color: var(--primary-color-dark);
+}
+
+ul li img {
+width: 30px;
+height: 30px;
+}
+
+ul li a img {
+padding-right: 3px;
 }
 
 footer {
